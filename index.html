@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>EVG – Terminal Pokémon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container" id="game">
+  <h1>UNKNOWN TERMINAL</h1>
+
+  <div class="codes">
+    0101 - 0494 - 1000<br>
+    0321 - 0493 - 0887 - 0206 - 0006<br>
+    0937 - 0184 - 0695<br>
+    0012 - 0160 - 0643 - 1021 - 0583
+  </div>
+
+  <input id="answer" type="text" placeholder="_ _ _   _ _ _ _ _   _ _ _   _ _ _ _ _">
+  <button onclick="checkAnswer()">VALIDER</button>
+
+  <p id="result"></p>
+</div>
+
+<audio id="bgm" src="pokemon-route.mp3" loop></audio>
+<audio id="successSound" src="https://www.myinstants.com/media/sounds/pokemon-level-up.mp3"></audio>
+
+<div class="sprites">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
