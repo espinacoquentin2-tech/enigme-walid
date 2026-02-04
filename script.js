@@ -19,8 +19,8 @@ function checkAnswer(){
         <h1>MISSION COMPLETE</h1>
         <p>
           Félicitations.<br><br>
-          Prépare tes billets de train pour le <b>vendredi 29 mai</b><br>
-          Retour le <b>lundi 01 juin</b> à Paris.
+          Prépare tes billets de train pour le <b>vendredi 29 mai direction Paris</b><br>
+          Retour le <b>lundi 01 juin </b> de Paris.
         </p>
       </div>
     `;
